@@ -11,15 +11,17 @@
             "role":  "Lead Architect / Developer"
         }
     ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
     "require": {
         "xantios/mimey": "^2.0"
     },
     "require-dev": {
         "phpstan/phpstan": "^1.0",
         "hiraeth/app": "^2.0"
-    },
-    "autoload": {
-        "classmap": ["src/"]
     },
     "type": "opus-package",
     "extra": {
