@@ -12,11 +12,12 @@
         }
     ],
     "require": {
-        "hiraeth/app": "^2.0",
+        "hiraeth/app": "^3.0",
         "xantios/mimey": "^2.0"
     },
     "require-dev": {
-        "phpstan/phpstan": "^1.0"
+        "phpstan/phpstan": "^1.0",
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "classmap": [
