@@ -17,11 +17,11 @@
         ]
     },
     "require": {
+        "hiraeth/app": "^2.0",
         "xantios/mimey": "^2.0"
     },
     "require-dev": {
-        "phpstan/phpstan": "^1.0",
-        "hiraeth/app": "^2.0"
+        "phpstan/phpstan": "^1.0"
     },
     "type": "opus-package",
     "extra": {
